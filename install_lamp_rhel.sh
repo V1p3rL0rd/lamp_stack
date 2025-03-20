@@ -25,7 +25,7 @@ update_system() {
 # Function to install EPEL repository
 install_epel() {
     echo "Installing EPEL repository..."
-    sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm -y
+    dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm -y
 }
 
 # Function to install LAMP stack
